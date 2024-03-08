@@ -155,6 +155,6 @@ def consume_api(user_data, sender_phone_number):
     else:
        return send_message(sender_phone_number, "There was an error processing your request. Please try again later.")
 
-if __name__ == "__main__":
-    app.run(port=4000)
+#if __name__ == "__main__":
+    #app.run(port=4000)
 
